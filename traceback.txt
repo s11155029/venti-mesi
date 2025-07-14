@@ -1,13 +1,11 @@
-Tue Jul 15 04:24:05 2025
-Windows-8-6.2.9200
-Ren'Py 6.99.5.602
- 
+﻿I'm sorry, but an uncaught exception occurred.
 
-Bootstrap to the start of init.init took 0.04s
-Early init took 0.10s
-Loader init took 0.11s
-Loading error handling took 0.02s
-Traceback (most recent call last):
+While parsing E:\renpy\PJ-School_git\venti-mesi/game/options.rpy.
+ScriptError: Name (u'/home/tom/ab/renpy/renpy/common/000atl.rpy', 1434348405, 52) is defined twice, at renpy/common/000atl.rpy:25 and renpy/common/000atl.rpy:25.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
   File "E:\renpy\PJ-School_git\venti-mesi\renpy\bootstrap.py", line 281, in bootstrap
     renpy.main.main()
   File "E:\renpy\PJ-School_git\venti-mesi\renpy\main.py", line 356, in main
@@ -19,3 +17,7 @@ Traceback (most recent call last):
   File "E:\renpy\PJ-School_git\venti-mesi\renpy\script.py", line 340, in finish_load
     bad_node.filename, bad_node.linenumber))
 ScriptError: Name (u'/home/tom/ab/renpy/renpy/common/000atl.rpy', 1434348405, 52) is defined twice, at renpy/common/000atl.rpy:25 and renpy/common/000atl.rpy:25.
+
+Windows-8-6.2.9200
+Ren'Py 6.99.5.602
+ 
