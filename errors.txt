@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "renpy/common/00splines.rpy", line 113: invalid syntax
+                result = [ t_p * start[i] + t * end[i] for i in 0,1 ]
+                                                                  ^
+
+File "renpy/common/00updater.rpy", line 702: invalid syntax
+                    exec self.updates["monkeypatch"] in globals(), globals()
+                          ^
+
+Ren'Py Version: Ren'Py 8.3.7.25031702
+Tue Jul 15 08:53:33 2025
